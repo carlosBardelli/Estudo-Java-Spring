@@ -5,6 +5,10 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+import java.sql.Array;
+import java.util.ArrayList;
+import java.util.List;
+
 @SpringBootApplication
 public class ScreemmatchApplication  implements CommandLineRunner {
 
@@ -17,8 +21,5 @@ public class ScreemmatchApplication  implements CommandLineRunner {
 
 		Principal principal = new Principal();
 		principal.exibeMenu();
-
-
-
 	}
 }
